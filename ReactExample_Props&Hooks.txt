@@ -1,3 +1,7 @@
+// This is an example of a series of buttons that will increment a counter by 1, 5, 10 and 100
+// I use React and JSX to practice using React components
+// These were tested with the online environment from: https://jscomplete.com/playground
+
 function Button(props){ // PROPS
   const handleClick = () => props.onClickFunction(props.increment);
   return(
